@@ -1,0 +1,26 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <main>
+    <route default>
+      <center>
+         <table>
+        <tr>
+          <td className="appTds">
+            <application name="@react-app/react-project"></application>
+          </td>
+          <td className="appTds">
+            <application name="@react-app/react-project2"></application>
+          </td>
+        </tr>
+      </table>
+      </center>
+     
+    </route>
+  </main>
+</single-spa-router>
